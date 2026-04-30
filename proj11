@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevOps Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    background: #1e293b;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #38bdf8;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #38bdf8;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #1e293b;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: #020617;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>🚀 DevOps Engineer Portfolio</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Hello, I'm Samarth</h1>
+    <p>Aspiring DevOps Engineer | AWS | Docker | Ansible</p>
+    <button class="btn" onclick="alert('Thanks for visiting!')">Open for Work - Hire Me</button>
+</section>
+
+<section class="section" id="skills">
+    <h2>🛠 Skills</h2>
+    <div class="cards">
+        <div class="card">Linux</div>
+        <div class="card">AWS</div>
+        <div class="card">Docker</div>
+        <div class="card">Ansible</div>
+        <div class="card">CI/CD</div>
+    </div>
+</section>
+
+<section class="section" id="projects">
+    <h2>📂 Projects</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Nginx Deployment</h3>
+            <p>Hosted website using Docker & AWS</p>
+        </div>
+        <div class="card">
+            <h3>Ansible Automation</h3>
+            <p>Configured multi-server setup</p>
+        </div>
+        <div class="card">
+            <h3>CI/CD Pipeline</h3>
+            <p>Automated deployment pipeline</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Samarth | DevOps Portfolio</p>
+</footer>
+
+</body>
+</html>
